@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Garment Pattern Studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <div class="window-bar">
+        <div class="window-dots">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+        </div>
+        <div class="window-title">AI Garment Pattern Studio - Professional Edition</div>
+        <div class="window-actions">
+          <span class="action-dot"></span>
+          <span class="action-dot"></span>
+        </div>
+      </div>
+
+      <div class="app">
+        <aside class="rail">
+          <div class="brand">
+            <span class="brand-mark">AI</span>
+            <span class="brand-dot"></span>
+          </div>
+          <nav class="rail-nav">
+            <button class="rail-btn active">File</button>
+            <button class="rail-btn">Files</button>
+            <button class="rail-btn">AI Tools</button>
+            <button class="rail-btn">Cloud</button>
+            <button class="rail-btn">Settings</button>
+          </nav>
+          <div class="rail-footer">
+            <div class="status-pill">Connected</div>
+          </div>
+        </aside>
+
+        <section class="panel left">
+          <header class="panel-header">
+            <h2>Product Registry</h2>
+            <div class="search">
+              <input type="text" placeholder="Search..." />
+              <span class="search-icon">⌕</span>
+            </div>
+          </header>
+          <div class="panel-body">
+            <div class="info-card">
+              <div class="icon">👗</div>
+              <div>
+                <p class="label">Project</p>
+                <p class="title">Summer Dress 2024</p>
+                <span class="tag">AI generated</span>
+              </div>
+            </div>
+            <div class="list">
+              <div class="list-item active">
+                <div class="icon">🧵</div>
+                <div>
+                  <p class="label">Component</p>
+                  <p class="title">Front Bodice</p>
+                  <span class="tag">AI refined</span>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">🪡</div>
+                <div>
+                  <p class="label">Component</p>
+                  <p class="title">Sleeve V2</p>
+                  <span class="tag">Optimized</span>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">✂️</div>
+                <div>
+                  <p class="label">Component</p>
+                  <p class="title">Skirt Panel</p>
+                  <span class="tag">In draft</span>
+                </div>
+              </div>
+              <div class="list-item">
+                <div class="icon">🧷</div>
+                <div>
+                  <p class="label">Component</p>
+                  <p class="title">Collar</p>
+                  <span class="tag">Generating</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <main class="canvas">
+          <header class="canvas-header">
+            <div class="tabs">
+              <button class="tab active">Summer Dress 2024</button>
+              <button class="tab">Office Blouse 2024</button>
+              <button class="tab">Evening Gown 2024</button>
+            </div>
+          </header>
+          <div class="toolbar">
+            <button class="tool active">Select</button>
+            <button class="tool">Smart Select</button>
+            <button class="tool">Fit Tool</button>
+            <button class="tool">Wireframe</button>
+            <button class="tool">Drafting</button>
+            <button class="tool">Measure</button>
+            <button class="tool">Needle</button>
+            <button class="tool">Measurement Tool</button>
+            <div class="zoom">150%</div>
+          </div>
+          <div class="grid">
+            <div class="pattern-panel">
+              <div class="pattern left"></div>
+              <div class="pattern center"></div>
+              <div class="pattern right"></div>
+            </div>
+          </div>
+          <footer class="console">
+            <div class="console-tabs">
+              <span class="active">Terminal</span>
+              <span>Output</span>
+              <span>Problems</span>
+              <span>Debug Console</span>
+            </div>
+            <div class="console-body">
+              <p>[AI Core] Initializing pattern generation for “Summer Dress 2024”...</p>
+              <p>[AI Core] Adapting body measurements.</p>
+              <p>[AI Core] Creating seam allowance map.</p>
+              <p>[AI Core] Fitting curves to block.</p>
+              <p>[AI Core] AI suggestions ready: smoothing +0.5 cm.</p>
+              <p>[System] User applied suggestion, recalculating grading.</p>
+            </div>
+          </footer>
+        </main>
+
+        <aside class="panel right">
+          <header class="panel-header">
+            <h2>Pattern Inspector</h2>
+          </header>
+          <div class="panel-body">
+            <div class="section size-section">
+              <h3>Supported Sizes</h3>
+              <div class="size-chips">
+                <span class="chip active">XS</span>
+                <span class="chip">S</span>
+                <span class="chip">M</span>
+                <span class="chip">L</span>
+                <span class="chip">XL</span>
+                <span class="chip">XXL</span>
+              </div>
+              <p class="size-note">Grading available for 5 body blocks.</p>
+            </div>
+            <div class="section">
+              <h3>Properties</h3>
+              <div class="property">
+                <span>Piece Name</span>
+                <strong>Front Bodice</strong>
+              </div>
+              <div class="property">
+                <span>Fit Type</span>
+                <strong>Atelier</strong>
+              </div>
+              <div class="property">
+                <span>Guides</span>
+                <strong>Vertical</strong>
+              </div>
+              <div class="property">
+                <span>AI Confidence</span>
+                <strong>96%</strong>
+              </div>
+            </div>
+            <div class="section">
+              <h3>Measurements</h3>
+              <div class="property">
+                <span>Bust</span>
+                <strong>92 cm</strong>
+              </div>
+              <div class="property">
+                <span>Waist</span>
+                <strong>74 cm</strong>
+              </div>
+              <div class="property">
+                <span>Hip</span>
+                <strong>98 cm</strong>
+              </div>
+              <div class="property">
+                <span>Sleeve length</span>
+                <strong>41 cm</strong>
+              </div>
+            </div>
+            <div class="section preview">
+              <div class="avatar"></div>
+              <div class="heatmap">
+                <span>AI Fit Map</span>
+                <div class="bar"></div>
+              </div>
+            </div>
+            <div class="section">
+              <h3>AI Suggestions</h3>
+              <ul>
+                <li>Core smoothing recommended</li>
+                <li>Dart placement adjustment</li>
+                <li>Seam allowance optimization</li>
+              </ul>
+              <div class="actions">
+                <button class="ghost">Apply</button>
+                <button>Preview</button>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </body>
+</html>
